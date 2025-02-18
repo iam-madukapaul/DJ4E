@@ -21,4 +21,5 @@ urlpatterns = [
     path('', include('home.urls')),
     path('accounts/', include('django.contrib.auth.urls')),  # Add this for authentication
     path('autos/', include('autos.urls')),  # Add this for autos CRUD views
+    path('cats/', include('cats.urls')),
 ]
